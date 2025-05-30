@@ -44,7 +44,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    perspective: 1000px;
 }
 
 .main-image {
@@ -54,14 +53,11 @@ body {
     object-fit: contain;
     display: block;
     animation: fadeIn 1.5s ease-out forwards;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .main-image:hover {
-    transform: translateY(-5px) scale(1.01);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    transform: scale(1.02);
 }
 
 /* 添加背景装饰 */
