@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
+    background-color: #FBFBFA;
 }
 
 .container {
@@ -17,6 +17,9 @@ body {
     max-width: 1200px;
     padding: 20px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-image {
@@ -25,5 +28,4 @@ body {
     max-height: 80vh;
     object-fit: contain;
     display: block;
-    margin: 0 auto;
 } 
