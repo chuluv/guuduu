@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #FBFBFA 0%, #FBFBFA 100%);
+    background: #FBFBFA;
     overflow: hidden;
 }
 
@@ -52,7 +52,7 @@ body {
     max-height: 80vh;
     object-fit: contain;
     display: block;
-    animation: fadeIn 1.5s ease-out forwards;
+    animation: fadeIn 1s ease-out forwards;
     transition: transform 0.3s ease;
 }
 
