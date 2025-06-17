@@ -9,6 +9,24 @@
     }
 }
 
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    14% {
+        transform: scale(1.1);
+    }
+    28% {
+        transform: scale(1);
+    }
+    42% {
+        transform: scale(1.1);
+    }
+    70% {
+        transform: scale(1);
+    }
+}
+
 @keyframes float {
     0% {
         transform: translateY(0px);
@@ -57,7 +75,7 @@ body {
 }
 
 .main-image:hover {
-    transform: scale(1.02);
+    transform: scale(1.2);
 }
 
 /* 添加背景装饰 */
@@ -82,4 +100,8 @@ body::after {
     bottom: -100px;
     right: -100px;
     animation: float 8s ease-in-out infinite reverse;
+}
+
+.heartbeat {
+    animation: heartbeat 1.5s ease-in-out infinite;
 } 
