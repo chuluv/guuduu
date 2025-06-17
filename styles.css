@@ -50,7 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FBFBFA;
+    background: #FBFAFC;
     overflow: hidden;
 }
 
@@ -104,4 +104,4 @@ body::after {
 
 .heartbeat {
     animation: heartbeat 1.5s ease-in-out infinite;
-} 
+}
